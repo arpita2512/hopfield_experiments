@@ -10,10 +10,10 @@ Modules
 
 ``hopfield.utils`` module
 ******************************
-.. autosummary:: hopfield.utils
-    :toctree: _autosummary
+.. autosummary::
+    :toctree: generated
 
-    hopfield.utils.reshape
-    
+    hopfield.utils
+
 
     
