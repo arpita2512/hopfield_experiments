@@ -10,8 +10,6 @@ Modules
 
 ``hopfield_experiments.utils`` module
 ******************************
-.. automodule:: hopfield_experiments.utils
-    :members:
-    :undoc-members:
+.. autosummary:: hopfield_experiments.utils
 
     
