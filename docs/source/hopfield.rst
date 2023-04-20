@@ -10,10 +10,8 @@ Modules
 
 ``hopfield.utils`` module
 ******************************
-.. automodule::
-    :toctree: generated
-
-    hopfield.utils
+.. automodule:: hopfield.utils
+    :members:
 
 
     
