@@ -10,8 +10,9 @@ Modules
 
 ``hopfield.utils`` module
 ******************************
-.. automodule:: hopfield.utils
-    :members:
+.. currentmodule:: hopfield.utils
+
+.. autofunction:: hopfield.utils.reshape
 
 
     
