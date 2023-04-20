@@ -10,8 +10,10 @@ Modules
 
 ``hopfield.utils`` module
 ******************************
-.. automodule:: hopfield.utils
-    :members:
-    :undoc-members:
+.. autosummary:: hopfield.utils
+    :toctree: _autosummary
+
+    hopfield.utils.reshape
+    
 
     
