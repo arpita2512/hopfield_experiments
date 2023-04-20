@@ -1,18 +1,17 @@
 Modules
 =================
 
-``hopfield_experiments.HopfieldNetwork`` class
+``hopfield.HopfieldNetwork`` class
 *****************************
 .. autoclass:: hopfield.HopfieldNetwork
     :members:
     :undoc-members:
     :show-inheritance:
 
-``hopfield_experiments.utils`` module
+``hopfield.utils`` module
 ******************************
-.. autosummary::
-    :toctree: _autosummary
-    
-    hopfield.utils
+.. automodule:: hopfield.utils
+    :members:
+    :undoc-members:
 
     
