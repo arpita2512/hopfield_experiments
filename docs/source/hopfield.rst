@@ -13,6 +13,6 @@ Modules
 .. autosummary::
     :toctree: _autosummary
     
-    hopfield_experiments.utils
+    hopfield.utils
 
     
