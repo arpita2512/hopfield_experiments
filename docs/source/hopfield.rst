@@ -10,6 +10,9 @@ Modules
 
 ``hopfield_experiments.utils`` module
 ******************************
-.. autosummary:: hopfield_experiments.utils
+.. autosummary::
+    :toctree: _autosummary
+    
+    hopfield_experiments.utils
 
     
