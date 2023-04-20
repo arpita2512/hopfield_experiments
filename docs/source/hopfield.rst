@@ -2,7 +2,7 @@ Modules
 =================
 
 ``hopfield.HopfieldNetwork`` class
-*****************************
+*************************************
 .. autoclass:: hopfield.HopfieldNetwork
     :members:
     :undoc-members:
@@ -10,9 +10,8 @@ Modules
 
 ``hopfield.utils`` module
 ******************************
-.. currentmodule:: hopfield.utils
-
-.. autofunction:: hopfield.utils.reshape
+.. automodule:: utils
+    :members:
 
 
     
