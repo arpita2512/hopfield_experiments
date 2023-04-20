@@ -11,7 +11,7 @@ Docs for ``hopfield_experiments``'s
    :caption: Contents
    
    intro
-   simpleble
+   hopfield
    examples
 
 Indices and tables
