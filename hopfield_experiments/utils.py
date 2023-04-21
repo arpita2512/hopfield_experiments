@@ -33,7 +33,7 @@ def get_corrupted_input(input, corruption_level):
             corrupted[i] = -1 * v
     return corrupted
 
-def plot(data, test, predicted, figsize=(3, 3), savefig=False):
+def plot(data, test, predicted, figsize=(5, 5), savefig=False):
     """Plot training images, corrupted inputs and predictions side by side
     
     :param data: training images; atleast 3
@@ -42,7 +42,7 @@ def plot(data, test, predicted, figsize=(3, 3), savefig=False):
     :type test: list of np.ndarray with len >=3
     :param predicted: predictions for images in test; atleast 3
     :type predicted: list of np.ndarray with len >=3
-    :param figsize: size for matplotlib figure; defaults to (3, 3)
+    :param figsize: size for matplotlib figure; defaults to (5, 5)
     :type figsize: tuple
     :param savefig: boolean value to save matplotlib figure; defaults to False
     :type savefig: bool

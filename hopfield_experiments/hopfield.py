@@ -89,7 +89,7 @@ class HopfieldNetwork(object):
         """
         plt.figure(figsize=figsize)
         w_mat = plt.imshow(self.W, cmap=cm.coolwarm)
-        plt.colorbar(w_mat)
+        plt.colorbar(w_mat, fraction=0.046, pad=0.04)
         plt.title("Weights Matrix for Trained Network")
         plt.tight_layout()
         plt.show()

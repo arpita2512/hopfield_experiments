@@ -1,5 +1,5 @@
 Welcome to the documentation for ``hopfield_experiments``
-========================================================
+============================================================
 
 .. toctree::
    :maxdepth: 2
