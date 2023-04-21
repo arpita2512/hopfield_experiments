@@ -1,4 +1,4 @@
-Welcom to the documentation for ``hopfield_experiments``
+Welcome to the documentation for ``hopfield_experiments``
 ========================================================
 
 .. toctree::
