@@ -8,7 +8,7 @@ Modules
     :undoc-members:
     :show-inheritance:
 
-``hopfield.utils`` module
+``utils`` module
 ******************************
 .. automodule:: utils
     :members:

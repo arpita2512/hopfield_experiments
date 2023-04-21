@@ -1,10 +1,5 @@
-.. simpleble documentation master file, created by
-   sphinx-quickstart on Fri Mar  9 04:07:53 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Docs for ``hopfield_experiments``'s
-=========================================
+Welcom to the documentation for ``hopfield_experiments``
+========================================================
 
 .. toctree::
    :maxdepth: 2
@@ -12,11 +7,4 @@ Docs for ``hopfield_experiments``'s
    
    intro
    hopfield
-   examples
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   results

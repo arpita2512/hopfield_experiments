@@ -1,12 +1,10 @@
-# Hopfield     
-<!--
-[![Documentation Status](https://readthedocs.org/projects/simpleble/badge/?version=latest)](http://simpleble.readthedocs.io/en/latest/?badge=latest)
-A high-level OO Python interface to Bluetooth LE on Linux environments. Read the full docs on [ReadTheDocs](http://simpleble.readthedocs.io).
--->
+# Hopfield Experiments   
+
+This is an implementation of the Hopfield Network using Synchronous approach. Pattern recovery experiments are performed using [MNIST](http://yann.lecun.com/exdb/mnist/) dataset. Results are compared with Asynchronous approach of Hopfield and Self-Organising Maps. 
+
+Documentation available at: [hopfield_experiments](https://hopfield-experiments.readthedocs.io/).
 
 Introduction
 ============
 
-Motivation
----------- 
 

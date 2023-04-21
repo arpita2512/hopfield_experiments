@@ -40,7 +40,7 @@ class HopfieldNetwork(object):
         :type num_iter: int, defaults to 20
         :param threshold: activation threshold for neurons
         :type threshold: float, defaults to 0
-        :return: preds, list of predictions
+        :return: list of predictions
         :rtype: list of np.ndarray
         """
         self.num_iter = num_iter
@@ -56,7 +56,7 @@ class HopfieldNetwork(object):
 
         :param init_s: initial state; the corrupted image
         :type init_s: np.ndarray
-        :return: predicted state s
+        :return: predicted state
         :rtype: np.ndarray
         """
         s = init_s

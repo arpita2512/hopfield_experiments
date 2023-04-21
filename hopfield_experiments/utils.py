@@ -3,14 +3,13 @@ seed=42
 np.random.seed(seed)
 from matplotlib import pyplot as plt
 from skimage.filters import threshold_mean
-from skimage.transform import resize
 
 def reshape(data):
     """Reshape flattened 1D array to 2D image
 
     :param data: flattened image array
     :type data: np.ndarray of shape (n,)
-    :return: data
+    :return: 2D image array
     :rtype: np.ndarray of shape (sqrt(n), sqrt(n))
     """
     dim = int(np.sqrt(len(data)))
@@ -39,7 +38,7 @@ def plot(data, test, predicted, figsize=(3, 3), savefig=False):
     
     :param data: training images; atleast 3
     :type data: list of np.ndarray with len >=3
-    :param test: corrupted (test) versions of training images; atleast 3
+    :param test: corrupted (test) versions of images; atleast 3
     :type test: list of np.ndarray with len >=3
     :param predicted: predictions for images in test; atleast 3
     :type predicted: list of np.ndarray with len >=3
@@ -73,11 +72,11 @@ def plot(data, test, predicted, figsize=(3, 3), savefig=False):
     plt.show()
 
 def preprocessing(img):
-    """Perform thresholding to convert grayscale image to binary and return flattened
+    """Perform thresholding to convert grayscale image to binary & flatten image
 
     :param img: grayscale image array
-    :type data: np.ndarray of shape (n, n)
-    :return: flatten
+    :type img: np.ndarray of shape (n, n)
+    :return: flattened binary image array
     :rtype: np.ndarray of shape (n^2,)
     """
     w, h = img.shape
