@@ -23,6 +23,3 @@ weight matrix by the input vector.
 Limitations
 *************
 
-+++++++++++++++++++++
-Self-Organising Map 
-+++++++++++++++++++++
