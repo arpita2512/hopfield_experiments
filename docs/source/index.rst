@@ -9,4 +9,5 @@ Welcome to the documentation for ``hopfield_experiments``
    intro
    hopfield
    results
+   digits_comp
    references

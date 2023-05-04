@@ -1,5 +1,3 @@
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   notebooks/Comparison_Digit
+################################################
+Detailed Comparison For Individual Digits
+################################################
