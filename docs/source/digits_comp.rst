@@ -1,13 +1,9 @@
 ######################################################################
-Welcome to the documentation for ``hopfield_experiments``
+Detailed Comparison
 ######################################################################
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents
-   
-   intro
-   hopfield
-   results
-   digits_comp
-   references
+   :caption: Contents:
+
+   notebooks/Comparison_Digits
