@@ -1,3 +1,4 @@
+bluepy
 numpy
 matplotlib
 scikit-image
