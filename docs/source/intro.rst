@@ -2,9 +2,9 @@
 Introduction
 ##############
 
-This is an implementation of the Hopfield Network. Pattern recovery experiments are performed using 
+This is an implementation of the Hopfield Network using synchronous pattern recovery. Experiments are performed using 
 `MNIST <http://yann.lecun.com/exdb/mnist/>`_ dataset. Results are compared with Asynchronous approach of Hopfield and 
-Self-Organising Map. 
+Self-Organising Map.
 
 ++++++++++++++++++
 Hopfield Network
@@ -23,3 +23,16 @@ weight matrix by the input vector.
 Limitations
 *************
 
+Spurious States
+
+.. image:: assets/spurious_states.png
+  :width: 400
+
++++++++++++++++++++++++++++++++++++++++++
+Reconstruction Sample
++++++++++++++++++++++++++++++++++++++++++
+
+*Note: Visualisation for Asynchronous Hopfield Network is done using Ruchita Mijagiri's code*
+
+.. image:: assets/sync_async_som.png
+  :width: 400

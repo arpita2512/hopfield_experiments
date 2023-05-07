@@ -38,6 +38,15 @@ Self-Organising Map
 Sync HN vs Async HN vs SOM
 ****************************
 
-Metrics aggregated across all digits.
+Metrics aggregated across all 10 digits.
 
 *Note: Metrics for Asynchronous Hopfield Network are derived using Ruchita Mijagiri's code*
+
+.. image:: assets/agg_mse.png
+  :width: 400
+
+.. image:: assets/agg_psnr.png
+  :width: 400
+
+.. image:: assets/agg_ssim.png
+  :width: 400
