@@ -1,6 +1,6 @@
-##############
-Results
-##############
+######################
+Results: Benchmarking
+######################
 
 Metrics Used
 *******************
@@ -8,8 +8,11 @@ Metrics Used
 #. Peak signal-to-noise ratio (PSNR)
 #. Structural similarity (SSIM)
 
-Synchronous Approach
+Evaluation Strategy
 **********************
+
+Synchronous Hopfield Network
+*****************************
 
 .. image:: assets/sync_mse.png
   :width: 400
@@ -34,3 +37,7 @@ Self-Organising Map
 
 Sync HN vs Async HN vs SOM
 ****************************
+
+Metrics aggregated across all digits.
+
+*Note: Metrics for Asynchronous Hopfield Network are derived using Ruchita Mijagiri's code*
