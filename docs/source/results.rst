@@ -2,14 +2,11 @@
 Results
 ######################
 
-Metrics Used
-*******************
-#. Mean squared error (MSE)
-#. Peak signal-to-noise ratio (PSNR)
-#. Structural similarity (SSIM)
+Plots for MSE, PSNR and SSIM
 
-Evaluation Strategy
-**********************
+Metrics for each digit using Synchronous Hopfield are provided first, followed by those for Self-Organising Map. 
+The final section compares these with the metrics for Asynchronous Hopfield, but aggregated across all 10 digits for brevity.
+For a digit wise comparison using all 3 approaches, refer to Detailed Comparison.
 
 Synchronous Hopfield Network
 *****************************

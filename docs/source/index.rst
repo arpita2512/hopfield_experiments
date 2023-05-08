@@ -8,6 +8,7 @@ Welcome to the documentation for ``hopfield_experiments``
    
    intro
    hopfield
+   implement
    results
    digits_comp
    references
