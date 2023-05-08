@@ -1,5 +1,5 @@
 ######################
-Results: Benchmarking
+Results
 ######################
 
 Metrics Used
